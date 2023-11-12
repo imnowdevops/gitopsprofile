@@ -3,7 +3,7 @@ on: workflow_dispatch
 env:
   AWS_REGION: us-east-2
   ECR_REPOSITORY: actapp
-  EKS_CLUSTER: gitops-eks           
+  EKS_CLUSTER: kitops-eks           
 jobs:
   Testing:
     runs-on: ubuntu-latest
